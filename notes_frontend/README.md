@@ -1,75 +1,29 @@
-# Nuxt Minimal Starter
+# Notes Web App – Nuxt.js Frontend
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a modern, minimalistic notes application built with Nuxt.js.  
+Features:
+- Add, edit, delete, and view notes
+- Search notes
+- Categorize notes and filter by category
+- Modern, light theme with #4F46E5 (primary), #64748B (secondary), #F59E42 (accent)
+- Responsive, with sidebar navigation, top nav bar, and main area
 
 ## Setup
 
-Make sure to install dependencies:
-
+Install dependencies:
 ```bash
 # npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+## Development
+Start dev server at http://localhost:3000:
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
-
+## Build for Production
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
